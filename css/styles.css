@@ -629,6 +629,7 @@ fieldset {
 }
 .form-field {
   position: relative;
+  margin-bottom: 8px;
 }
 .form-input {
   width: 100%;
@@ -638,6 +639,21 @@ fieldset {
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 300ms ease-in;
+}
+
+.form-input::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
+
+.form-comment {
+  padding-top: 8px;
+  padding-left: 16px;
+  min-height: 120px;
 }
 
 .form-input:focus {
