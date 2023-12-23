@@ -270,9 +270,9 @@ fieldset {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px;
+
   height: 112px;
-  padding: 24px 100px;
+  padding: 24px 20px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
@@ -654,6 +654,7 @@ fieldset {
   padding-top: 8px;
   padding-left: 16px;
   min-height: 120px;
+  resize: none;
 }
 
 .form-input:focus {
