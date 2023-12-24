@@ -207,7 +207,8 @@ fieldset {
   line-height: 1.07;
 }
 
-.hero-button {
+.hero-button,
+.form-btn {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -229,7 +230,9 @@ fieldset {
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.form-btn:hover,
+.form-btn:focus {
   background-color: #404bbf;
 }
 
@@ -665,6 +668,60 @@ fieldset {
 
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
+}
+
+/* Custom chekbox */
+
+.form-agreement {
+  display: block;
+  margin-bottom: 24px;
+
+  color: #8e8f99;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  user-select: none;
+}
+.checkbox {
+}
+.form-agreement-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+
+  transition: border-color 300ms ease, background-color 300ms ease;
+}
+.form-agreement-icon {
+  opacity: 0;
+  fill: #fff;
+  transform: scale(0.3);
+  transition: opacity 300ms ease 150ms, trabsform 300ms ease 150ms;
+}
+.form-agreement-link {
+  color: #4d5ae5;
+  text-decoration-line: underline;
+}
+
+.checkbox:checked + .form-agreement-checkbox {
+  background-color: #404bbf;
+  border-color: #404bbf;
+}
+
+.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.form-btn {
+  color: #ffffff;
 }
 
 /* #endregion */
