@@ -496,8 +496,6 @@ fieldset {
   align-items: center;
   gap: 24px;
 }
-.subscribe-form-field {
-}
 
 .subscribe-form-input {
   width: 264px;
@@ -614,10 +612,6 @@ fieldset {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
-.form {
-}
 .form-label {
   display: block;
   margin-bottom: 4px;
