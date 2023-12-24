@@ -753,7 +753,7 @@ fieldset {
   opacity: 0;
   fill: #fff;
   transform: scale(0.3);
-  transition: opacity 300ms ease 150ms, trabsform 300ms ease 150ms;
+  transition: opacity 300ms ease 150ms, transform 300ms ease 150ms;
 }
 .form-agreement-link {
   color: #4d5ae5;
@@ -762,7 +762,7 @@ fieldset {
 
 .checkbox:checked + .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
-  border-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
