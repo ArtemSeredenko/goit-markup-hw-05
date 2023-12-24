@@ -640,6 +640,10 @@ fieldset {
   margin-bottom: 8px;
 }
 
+.form-wrapper-first {
+  margin-bottom: 16px;
+}
+
 .form-label {
   display: block;
   margin-bottom: 4px;
